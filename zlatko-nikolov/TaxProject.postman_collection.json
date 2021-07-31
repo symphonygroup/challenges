@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "24990ac6-cc76-4cc4-bb28-877760069f91",
+		"name": "TaxProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetTax",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Vehicle\":{\n        \"Type\": 0\n    },\n    \"Dates\": [\n        \"2013-01-14T21:00:00.00Z\",\n        \"2013-01-15T21:00:00.00Z\",\n        \"2013-02-07T06:23:27.00Z\",\n        \"2013-02-07T15:27:00.00Z\",\n        \"2013-02-08T06:20:27.00Z\",\n        \"2013-02-08T06:27:00.00Z\",\n        \"2013-02-08T14:35:00.00Z\",\n        \"2013-02-08T15:29:00.00Z\",\n        \"2013-02-08T15:47:00.00Z\",\n        \"2013-02-08T16:01:00.00Z\",\n        \"2013-02-08T16:48:00.00Z\",\n        \"2013-02-08T17:49:00.00Z\",\n        \"2013-02-08T18:29:00.00Z\",\n        \"2013-02-08T18:35:00.00Z\",\n        \"2013-03-26T14:25:00.00Z\",\n        \"2013-03-28T14:07:27.00Z\"\n    ],\n    \"City\":\"\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8789/CongestionTax/GetTax",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8789",
+					"path": [
+						"CongestionTax",
+						"GetTax"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
